@@ -10,5 +10,6 @@ gallery.addEventListener('click', (e) => {
 
   if (link) {
     mainImage.src = link.href;
+    mainImage.alt = link.title;
   }
 });
